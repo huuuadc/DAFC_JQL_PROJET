@@ -1,0 +1,10 @@
+				@font-face {
+					font-family: 'svnfutura';
+					src: url('/wordpress/wp-content/uploads/useanyfont/9821SVNFutura.woff2') format('woff2'),
+						url('/wordpress/wp-content/uploads/useanyfont/9821SVNFutura.woff') format('woff');
+					font-display: auto;
+				}
+
+				.svnfutura{font-family: 'svnfutura' !important;}
+
+		

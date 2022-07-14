@@ -1,0 +1,7 @@
+3793 / completed / on-hold
+//Payment_Outlet JSON
+{"LineNo":30000,"Transaction_No_":3793,"Receipt_No_":3793,"Tender_Type":"alepay","Amount_Tendered":"13489740","Amount_in_Currency":"13489740","Date":"2021-10-18 00:00:00.000","Time":"1754-01-01 13:10:55.000","Quantity":1,"VAT_Buyer_Name":"Test Test","VAT_Company_Name":"","VAT_Tax_Code":"","VAT_Address":"test","VAT_Payment_Method":"alepay","VAT_Bank_Account":"","Member_Phone":"0123456789","THENH":"","Cash":"13489740"}
+//Transaction_Outlet JSON
+{"Receipt_No_":3793,"Transaction_No_":3793,"LineNo":10000,"Item_No_":"999999","SerialNo":"","Variant_Code":1038,"Trans_Date":"2021-10-18 13:10:55.000","Quantity":-2,"UnitPrice":"2000000","TotalPrice":"3600000","DiscountRate":20,"Disc":0,"TotalAmt":"3600000","Member_Card_No_":"","Offer_Online_ID":"","CouponCode":"string","CouponNo":"string"}
+{"Receipt_No_":3793,"Transaction_No_":3793,"LineNo":20000,"Item_No_":"","SerialNo":"","Variant_Code":3587,"Trans_Date":"2021-10-18 13:10:55.000","Quantity":-1,"UnitPrice":"1980000","TotalPrice":"1782000","DiscountRate":20,"Disc":0,"TotalAmt":"1782000","Member_Card_No_":"","Offer_Online_ID":"","CouponCode":"string","CouponNo":"string"}
+{"Receipt_No_":3793,"Transaction_No_":3793,"LineNo":30000,"Item_No_":"","SerialNo":"","Variant_Code":3653,"Trans_Date":"2021-10-18 13:10:55.000","Quantity":-1,"UnitPrice":"7646000","TotalPrice":"6881400","DiscountRate":20,"Disc":0,"TotalAmt":"6881400","Member_Card_No_":"","Offer_Online_ID":"","CouponCode":"string","CouponNo":"string"}

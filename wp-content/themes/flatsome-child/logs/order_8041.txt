@@ -1,0 +1,5 @@
+8041 / pending / processing
+//Payment_Outlet JSON
+{"LineNo":30000,"Transaction_No_":8041,"Receipt_No_":8041,"Tender_Type":1,"Amount_Tendered":"700000","Amount_in_Currency":"700000","Date":"2021-11-19 00:00:00.000","Time":"1754-01-01 14:44:21.000","Quantity":1,"VAT_Buyer_Name":"Minh Le Vinh Hoang","VAT_Company_Name":"","VAT_Tax_Code":"","VAT_Address":"34 duong so 7, phuong 3, Go Vap","VAT_Payment_Method":"Cash","VAT_Bank_Account":"","Member_Phone":"+84965081404","THENH":"","Cash":"700000"}
+//Transaction_Outlet JSON
+[{"Receipt_No_":8041,"Transaction_No_":8041,"LineNo":10000,"LineNo_Online":300,"Item_No_":"1102377","SerialNo":"","Variant_Code":"0038","Trans_Date":"2021-11-19 14:44:21.000","Quantity":-1,"UnitPrice":"25600000","TotalPrice":"25600000","Value_Type":0,"DiscountRate":0,"DiscountAmount":0,"Disc":24900000,"TotalAmt":"700000","Member_Card_No_":"","Offer_Online_ID":"50","CouponCode":"","CouponNo":"","Category_Online_ID":[5603,5612]}]

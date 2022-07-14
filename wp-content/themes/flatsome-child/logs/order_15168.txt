@@ -1,0 +1,5 @@
+15168 / pending / processing
+//Payment_Outlet JSON
+{"LineNo":30000,"Transaction_No_":15168,"Receipt_No_":15168,"Tender_Type":1,"Amount_Tendered":"3499000","Amount_in_Currency":"3499000","Date":"2022-06-09 00:00:00.000","Time":"1754-01-01 17:39:44.000","Quantity":1,"VAT_Buyer_Name":"a2 a0906","VAT_Company_Name":"","VAT_Tax_Code":"","VAT_Address":"aaa","VAT_Payment_Method":"TM\/CK","VAT_Bank_Account":"","Member_Phone":"0932903603","THENH":"","Cash":"3499000"}
+//Transaction_Outlet JSON
+[{"Receipt_No_":15168,"Transaction_No_":15168,"LineNo":10000,"LineNo_Online":678,"Item_No_":"1037740","SerialNo":"","Variant_Code":"","Trans_Date":"2022-06-09 17:39:44.000","Quantity":-1,"UnitPrice":"3499000.00","TotalPrice":3499000,"Value_Type":0,"DiscountRate":"","DiscountAmount":"","Disc":"","TotalAmt":3499000,"Member_Card_No_":"","Offer_Online_ID":"","CouponCode":"","CouponNo":"","Category_Online_ID":[5627,5601]}]

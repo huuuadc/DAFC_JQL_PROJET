@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'SVN-Futura';
+    src: url('SVN-FuturaBlackItalic.eot');
+    src: url('SVN-FuturaBlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('SVN-FuturaBlackItalic.woff2') format('woff2'),
+        url('SVN-FuturaBlackItalic.woff') format('woff'),
+        url('SVN-FuturaBlackItalic.ttf') format('truetype'),
+        url('SVN-FuturaBlackItalic.svg#SVN-FuturaBlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Futura Book';
+    src: url('SVN-FuturaBookItalic.eot');
+    src: url('SVN-FuturaBookItalic.eot?#iefix') format('embedded-opentype'),
+        url('SVN-FuturaBookItalic.woff2') format('woff2'),
+        url('SVN-FuturaBookItalic.woff') format('woff'),
+        url('SVN-FuturaBookItalic.ttf') format('truetype'),
+        url('SVN-FuturaBookItalic.svg#SVN-FuturaBookItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Futura';
+    src: url('SVN-FuturaBold.eot');
+    src: url('SVN-FuturaBold.eot?#iefix') format('embedded-opentype'),
+        url('SVN-FuturaBold.woff2') format('woff2'),
+        url('SVN-FuturaBold.woff') format('woff'),
+        url('SVN-FuturaBold.ttf') format('truetype'),
+        url('SVN-FuturaBold.svg#SVN-FuturaBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Futura';
+    src: url('SVN-FuturaBlack.eot');
+    src: url('SVN-FuturaBlack.eot?#iefix') format('embedded-opentype'),
+        url('SVN-FuturaBlack.woff2') format('woff2'),
+        url('SVN-FuturaBlack.woff') format('woff'),
+        url('SVN-FuturaBlack.ttf') format('truetype'),
+        url('SVN-FuturaBlack.svg#SVN-FuturaBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Futura Book';
+    src: url('SVN-FuturaBook.eot');
+    src: url('SVN-FuturaBook.eot?#iefix') format('embedded-opentype'),
+        url('SVN-FuturaBook.woff2') format('woff2'),
+        url('SVN-FuturaBook.woff') format('woff'),
+        url('SVN-FuturaBook.ttf') format('truetype'),
+        url('SVN-FuturaBook.svg#SVN-FuturaBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Futura';
+    src: url('SVN-FuturaBoldItalic.eot');
+    src: url('SVN-FuturaBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('SVN-FuturaBoldItalic.woff2') format('woff2'),
+        url('SVN-FuturaBoldItalic.woff') format('woff'),
+        url('SVN-FuturaBoldItalic.ttf') format('truetype'),
+        url('SVN-FuturaBoldItalic.svg#SVN-FuturaBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Futura';
+    src: url('SVN-FuturaItalic.eot');
+    src: url('SVN-FuturaItalic.eot?#iefix') format('embedded-opentype'),
+        url('SVN-FuturaItalic.woff2') format('woff2'),
+        url('SVN-FuturaItalic.woff') format('woff'),
+        url('SVN-FuturaItalic.ttf') format('truetype'),
+        url('SVN-FuturaItalic.svg#SVN-FuturaItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Futura';
+    src: url('SVN-FuturaDemiBoldItalic.eot');
+    src: url('SVN-FuturaDemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('SVN-FuturaDemiBoldItalic.woff2') format('woff2'),
+        url('SVN-FuturaDemiBoldItalic.woff') format('woff'),
+        url('SVN-FuturaDemiBoldItalic.ttf') format('truetype'),
+        url('SVN-FuturaDemiBoldItalic.svg#SVN-FuturaDemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Futura';
+    src: url('SVN-FuturaLightItalic.eot');
+    src: url('SVN-FuturaLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('SVN-FuturaLightItalic.woff2') format('woff2'),
+        url('SVN-FuturaLightItalic.woff') format('woff'),
+        url('SVN-FuturaLightItalic.ttf') format('truetype'),
+        url('SVN-FuturaLightItalic.svg#SVN-FuturaLightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Futura';
+    src: url('SVN-FuturaHeavy.eot');
+    src: url('SVN-FuturaHeavy.eot?#iefix') format('embedded-opentype'),
+        url('SVN-FuturaHeavy.woff2') format('woff2'),
+        url('SVN-FuturaHeavy.woff') format('woff'),
+        url('SVN-FuturaHeavy.ttf') format('truetype'),
+        url('SVN-FuturaHeavy.svg#SVN-FuturaHeavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Futura';
+    src: url('SVN-FuturaLight.eot');
+    src: url('SVN-FuturaLight.eot?#iefix') format('embedded-opentype'),
+        url('SVN-FuturaLight.woff2') format('woff2'),
+        url('SVN-FuturaLight.woff') format('woff'),
+        url('SVN-FuturaLight.ttf') format('truetype'),
+        url('SVN-FuturaLight.svg#SVN-FuturaLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Futura';
+    src: url('SVN-Futura.eot');
+    src: url('SVN-Futura.eot?#iefix') format('embedded-opentype'),
+        url('SVN-Futura.woff2') format('woff2'),
+        url('SVN-Futura.woff') format('woff'),
+        url('SVN-Futura.ttf') format('truetype'),
+        url('SVN-Futura.svg#SVN-Futura') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Futura';
+    src: url('SVN-FuturaHeavyItalic.eot');
+    src: url('SVN-FuturaHeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('SVN-FuturaHeavyItalic.woff2') format('woff2'),
+        url('SVN-FuturaHeavyItalic.woff') format('woff'),
+        url('SVN-FuturaHeavyItalic.ttf') format('truetype'),
+        url('SVN-FuturaHeavyItalic.svg#SVN-FuturaHeavyItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Futura';
+    src: url('SVN-FuturaDemiBold.eot');
+    src: url('SVN-FuturaDemiBold.eot?#iefix') format('embedded-opentype'),
+        url('SVN-FuturaDemiBold.woff2') format('woff2'),
+        url('SVN-FuturaDemiBold.woff') format('woff'),
+        url('SVN-FuturaDemiBold.ttf') format('truetype'),
+        url('SVN-FuturaDemiBold.svg#SVN-FuturaDemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,12 @@
+2022-07-04T11:32:35+00:00 CRITICAL Uncaught Error: Call to undefined function ar_dump() in C:\xamppp\htdocs\wp-content\themes\flatsome\woocommerce\single-product\add-to-cart\variable.php:38
+Stack trace:
+#0 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1674): wc_get_template('single-product/...', Array)
+#2 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(292): woocommerce_variable_add_to_cart('')
+#3 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 C:\xamppp\htdocs\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1620): do_action('woocommerce_var...')
+#6 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(292): woocommerce_template_single_add_to_cart('')
+#7 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xamppp\htdocs\wp-includes\plugin.php(48 in C:\xamppp\htdocs\wp-content\themes\flatsome\woocommerce\single-product\add-to-cart\variable.php on line 38
+

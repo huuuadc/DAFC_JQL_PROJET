@@ -1,0 +1,4 @@
+3862 / pending / processing
+//Payment_Outlet JSON
+{"Transaction_No_":3862,"Receipt_No_":3862,"Tender_Type":"cod","Amount_Tendered":"0","Amount_in_Currency":"0","Date":null,"Time":null,"Quantity":0,"VAT_Buyer_Name":"Test Test","VAT_Company_Name":"","VAT_Tax_Code":"","VAT_Address":"test","VAT_Payment_Method":"cod","VAT_Bank_Account":"","Member_Phone":"0123456789","THENH":"","Cash":"0"}
+//Transaction_Outlet JSON

@@ -1,0 +1,6 @@
+4037 / pending / processing
+//Payment_Outlet JSON
+{"LineNo":30000,"Transaction_No_":4037,"Receipt_No_":4037,"Tender_Type":1,"Amount_Tendered":"13220000","Amount_in_Currency":"13220000","Date":"2021-10-25 00:00:00.000","Time":"1754-01-01 02:49:23.000","Quantity":1,"VAT_Buyer_Name":"Nam Nguyen","VAT_Company_Name":"","VAT_Tax_Code":"","VAT_Address":"123 Acb, DEF","VAT_Payment_Method":"Cash","VAT_Bank_Account":"","Member_Phone":"0909191919","THENH":"","Cash":"13220000"}
+//Transaction_Outlet JSON
+{"Receipt_No_":4037,"Transaction_No_":4037,"LineNo":10000,"Item_No_":"","SerialNo":"","Variant_Code":"m","Trans_Date":"2021-10-25 02:49:23.000","Quantity":-1,"UnitPrice":"8600000","TotalPrice":"1","DiscountRate":0,"Disc":"860000","TotalAmt":"7740000","Member_Card_No_":"08001637","Offer_Online_ID":"1","CouponCode":"","CouponNo":""}
+{"Receipt_No_":4037,"Transaction_No_":4037,"LineNo":20000,"Item_No_":"999999","SerialNo":"","Variant_Code":"15-5","Trans_Date":"2021-10-25 02:49:23.000","Quantity":-3,"UnitPrice":"2000000","TotalPrice":"1","DiscountRate":0,"Disc":"600000","TotalAmt":"5400000","Member_Card_No_":"08001637","Offer_Online_ID":"1","CouponCode":"","CouponNo":""}

@@ -1,0 +1,12 @@
+2022-07-07T04:24:00+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xamppp\htdocs\wp-content\plugins\advanced-custom-fields\includes\locations\class-acf-location-page-type.php on line 3
+
+2022-07-07T05:55:52+00:00 CRITICAL Out of memory (allocated 54525952) (tried to allocate 32768 bytes) in C:\xamppp\htdocs\wp-content\plugins\wordpress-seo\src\context\meta-tags-context.php on line 559
+
+2022-07-07T06:52:55+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xamppp\htdocs\wp-content\themes\flatsome-child\custom\user-registration.php on line 2
+
+2022-07-07T06:53:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xamppp\htdocs\wp-content\plugins\wordpress-seo\src\actions\indexing\indexable-indexing-complete-action.php on line 12
+
+2022-07-07T06:53:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xamppp\htdocs\wp-content\plugins\wordpress-seo-premium\src\helpers\zapier-helper.php on line 15
+
+2022-07-07T06:53:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xamppp\htdocs\wp-content\plugins\wp-security-audit-log\classes\Alert.php on line 8
+

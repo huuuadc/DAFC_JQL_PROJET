@@ -1,0 +1,6 @@
+3883 / completed / cancelled
+//Payment_Outlet JSON
+{"LineNo":30000,"Transaction_No_":3883,"Receipt_No_":3883,"Tender_Type":1,"Amount_Tendered":"13262800","Amount_in_Currency":"13262800","Date":"2021-10-22 00:00:00.000","Time":"1754-01-01 13:17:41.000","Quantity":1,"VAT_Buyer_Name":"Test Test","VAT_Company_Name":"","VAT_Tax_Code":"","VAT_Address":"test","VAT_Payment_Method":"Cash","VAT_Bank_Account":"","Member_Phone":"0123456789","THENH":"","Cash":"13262800"}
+//Transaction_Outlet JSON
+{"Receipt_No_":3883,"Transaction_No_":3883,"LineNo":10000,"Item_No_":"","SerialNo":[],"Variant_Code":"xl","Trans_Date":"2021-10-22 13:17:41.000","Quantity":-2,"UnitPrice":"7646000","TotalPrice":"1","DiscountRate":0,"Disc":"1529200","TotalAmt":"13262800","Member_Card_No_":"08001637","Offer_Online_ID":"1","CouponCode":"500k","CouponNo":"909090"}
+{"Receipt_No_":3883,"Transaction_No_":3883,"LineNo":20000,"Item_No_":"999999","SerialNo":["RDA0000512058"],"Variant_Code":"","Trans_Date":"2021-10-22 13:17:41.000","Quantity":-1,"UnitPrice":"2000000","TotalPrice":"0","DiscountRate":0,"Disc":0,"TotalAmt":"0","Member_Card_No_":"08001637","Offer_Online_ID":"","CouponCode":"500k","CouponNo":"909090"}

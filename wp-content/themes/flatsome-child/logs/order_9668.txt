@@ -1,0 +1,5 @@
+9668 / pending / processing
+//Payment_Outlet JSON
+{"LineNo":30000,"Transaction_No_":9668,"Receipt_No_":9668,"Tender_Type":1,"Amount_Tendered":"500000","Amount_in_Currency":"500000","Date":"2021-12-24 00:00:00.000","Time":"1754-01-01 13:57:59.000","Quantity":1,"VAT_Buyer_Name":"Bich Tran","VAT_Company_Name":"","VAT_Tax_Code":"","VAT_Address":"72 Ng thi Minh Khai","VAT_Payment_Method":"TM\/CK","VAT_Bank_Account":"","Member_Phone":"0938830696","THENH":"","Cash":"500000"}
+//Transaction_Outlet JSON
+[{"Receipt_No_":9668,"Transaction_No_":9668,"LineNo":10000,"LineNo_Online":605,"Item_No_":"1098757","SerialNo":"RDA0000517022","Variant_Code":"0038","Trans_Date":"2021-12-24 13:57:59.000","Quantity":-1,"UnitPrice":"12500000","TotalPrice":"12500000","Value_Type":0,"DiscountRate":0,"DiscountAmount":0,"Disc":12000000,"TotalAmt":"500000","Member_Card_No_":"","Offer_Online_ID":"112","CouponCode":"","CouponNo":"","Category_Online_ID":[5603,5616]}]

@@ -1,0 +1,84 @@
+2022-07-14T09:11:45+00:00 CRITICAL Uncaught Error: Function name must be a string in C:\xamppp\htdocs\wp-content\themes\flatsome-child\a-z-listing.php:40
+Stack trace:
+#0 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Query.php(1201): require()
+#1 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Query.php(743): A_Z_Listing\_do_template(Object(A_Z_Listing\Query), 'C:\\xamppp\\htdoc...')
+#2 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Query.php(758): A_Z_Listing\Query->the_listing()
+#3 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Shortcode.php(241): A_Z_Listing\Query->get_the_listing()
+#4 C:\xamppp\htdocs\wp-includes\shortcodes.php(343): A_Z_Listing\Shortcode->handle(Array, '', 'a-z-listing')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\xamppp\htdocs\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(a\\-z\\-...', 'do_shortcode_ta...', '\n\n[a-z-listing ...')
+#7 C:\xamppp\htdocs\wp-content\themes\flatsome\inc\shortcodes\row.php(216): do_shortcode('\n\n[a-z-listing ...')
+#8 C:\xamppp\htdocs\wp-include in C:\xamppp\htdocs\wp-content\themes\flatsome-child\a-z-listing.php on line 40
+
+2022-07-14T09:13:49+00:00 CRITICAL Uncaught Error: Function name must be a string in C:\xamppp\htdocs\wp-content\themes\flatsome-child\a-z-listing.php:40
+Stack trace:
+#0 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Query.php(1201): require()
+#1 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Query.php(743): A_Z_Listing\_do_template(Object(A_Z_Listing\Query), 'C:\\xamppp\\htdoc...')
+#2 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Query.php(758): A_Z_Listing\Query->the_listing()
+#3 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Shortcode.php(241): A_Z_Listing\Query->get_the_listing()
+#4 C:\xamppp\htdocs\wp-includes\shortcodes.php(343): A_Z_Listing\Shortcode->handle(Array, '', 'a-z-listing')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\xamppp\htdocs\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(a\\-z\\-...', 'do_shortcode_ta...', '\n\n[a-z-listing ...')
+#7 C:\xamppp\htdocs\wp-content\themes\flatsome\inc\shortcodes\row.php(216): do_shortcode('\n\n[a-z-listing ...')
+#8 C:\xamppp\htdocs\wp-include in C:\xamppp\htdocs\wp-content\themes\flatsome-child\a-z-listing.php on line 40
+
+2022-07-14T09:16:51+00:00 CRITICAL Uncaught Error: Function name must be a string in C:\xamppp\htdocs\wp-content\themes\flatsome-child\a-z-listing.php:40
+Stack trace:
+#0 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Query.php(1201): require()
+#1 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Query.php(743): A_Z_Listing\_do_template(Object(A_Z_Listing\Query), 'C:\\xamppp\\htdoc...')
+#2 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Query.php(758): A_Z_Listing\Query->the_listing()
+#3 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Shortcode.php(241): A_Z_Listing\Query->get_the_listing()
+#4 C:\xamppp\htdocs\wp-includes\shortcodes.php(343): A_Z_Listing\Shortcode->handle(Array, '', 'a-z-listing')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\xamppp\htdocs\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(a\\-z\\-...', 'do_shortcode_ta...', '\n\n[a-z-listing ...')
+#7 C:\xamppp\htdocs\wp-content\themes\flatsome\inc\shortcodes\row.php(216): do_shortcode('\n\n[a-z-listing ...')
+#8 C:\xamppp\htdocs\wp-include in C:\xamppp\htdocs\wp-content\themes\flatsome-child\a-z-listing.php on line 40
+
+2022-07-14T09:19:29+00:00 CRITICAL Uncaught Error: Function name must be a string in C:\xamppp\htdocs\wp-content\themes\flatsome-child\a-z-listing.php:40
+Stack trace:
+#0 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Query.php(1201): require()
+#1 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Query.php(743): A_Z_Listing\_do_template(Object(A_Z_Listing\Query), 'C:\\xamppp\\htdoc...')
+#2 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Query.php(758): A_Z_Listing\Query->the_listing()
+#3 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Shortcode.php(241): A_Z_Listing\Query->get_the_listing()
+#4 C:\xamppp\htdocs\wp-includes\shortcodes.php(343): A_Z_Listing\Shortcode->handle(Array, '', 'a-z-listing')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\xamppp\htdocs\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(a\\-z\\-...', 'do_shortcode_ta...', '\n\n[a-z-listing ...')
+#7 C:\xamppp\htdocs\wp-content\themes\flatsome\inc\shortcodes\row.php(216): do_shortcode('\n\n[a-z-listing ...')
+#8 C:\xamppp\htdocs\wp-include in C:\xamppp\htdocs\wp-content\themes\flatsome-child\a-z-listing.php on line 40
+
+2022-07-14T09:21:13+00:00 CRITICAL Uncaught Error: Function name must be a string in C:\xamppp\htdocs\wp-content\themes\flatsome-child\a-z-listing.php:44
+Stack trace:
+#0 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Query.php(1201): require()
+#1 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Query.php(743): A_Z_Listing\_do_template(Object(A_Z_Listing\Query), 'C:\\xamppp\\htdoc...')
+#2 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Query.php(758): A_Z_Listing\Query->the_listing()
+#3 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Shortcode.php(241): A_Z_Listing\Query->get_the_listing()
+#4 C:\xamppp\htdocs\wp-includes\shortcodes.php(343): A_Z_Listing\Shortcode->handle(Array, '', 'a-z-listing')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\xamppp\htdocs\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(a\\-z\\-...', 'do_shortcode_ta...', '\n\n[a-z-listing ...')
+#7 C:\xamppp\htdocs\wp-content\themes\flatsome\inc\shortcodes\row.php(216): do_shortcode('\n\n[a-z-listing ...')
+#8 C:\xamppp\htdocs\wp-include in C:\xamppp\htdocs\wp-content\themes\flatsome-child\a-z-listing.php on line 44
+
+2022-07-14T10:25:49+00:00 CRITICAL Uncaught Error: Function name must be a string in C:\xamppp\htdocs\wp-content\themes\flatsome-child\a-z-listing.php:40
+Stack trace:
+#0 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Query.php(1201): require()
+#1 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Query.php(743): A_Z_Listing\_do_template(Object(A_Z_Listing\Query), 'C:\\xamppp\\htdoc...')
+#2 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Query.php(758): A_Z_Listing\Query->the_listing()
+#3 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Shortcode.php(241): A_Z_Listing\Query->get_the_listing()
+#4 C:\xamppp\htdocs\wp-includes\shortcodes.php(343): A_Z_Listing\Shortcode->handle(Array, '', 'a-z-listing')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\xamppp\htdocs\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(a\\-z\\-...', 'do_shortcode_ta...', '\n\n[a-z-listing ...')
+#7 C:\xamppp\htdocs\wp-content\themes\flatsome\inc\shortcodes\row.php(216): do_shortcode('\n\n[a-z-listing ...')
+#8 C:\xamppp\htdocs\wp-include in C:\xamppp\htdocs\wp-content\themes\flatsome-child\a-z-listing.php on line 40
+
+2022-07-14T10:36:37+00:00 CRITICAL Uncaught Error: Function name must be a string in C:\xamppp\htdocs\wp-content\themes\flatsome-child\a-z-listing.php:40
+Stack trace:
+#0 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Query.php(1201): require()
+#1 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Query.php(743): A_Z_Listing\_do_template(Object(A_Z_Listing\Query), 'C:\\xamppp\\htdoc...')
+#2 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Query.php(758): A_Z_Listing\Query->the_listing()
+#3 C:\xamppp\htdocs\wp-content\plugins\a-z-listing\src\Shortcode.php(241): A_Z_Listing\Query->get_the_listing()
+#4 C:\xamppp\htdocs\wp-includes\shortcodes.php(343): A_Z_Listing\Shortcode->handle(Array, '', 'a-z-listing')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\xamppp\htdocs\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(a\\-z\\-...', 'do_shortcode_ta...', '\n\n[a-z-listing ...')
+#7 C:\xamppp\htdocs\wp-content\themes\flatsome\inc\shortcodes\row.php(216): do_shortcode('\n\n[a-z-listing ...')
+#8 C:\xamppp\htdocs\wp-include in C:\xamppp\htdocs\wp-content\themes\flatsome-child\a-z-listing.php on line 40
+

@@ -1,0 +1,125 @@
+2022-06-30T02:47:31+00:00 CRITICAL syntax error, unexpected '?>', expecting ')' in C:\xamppp\htdocs\wp-content\themes\flatsome-child\salesadmin\salesadmin-order.php on line 58
+
+2022-06-30T02:47:33+00:00 CRITICAL syntax error, unexpected '?>', expecting ')' in C:\xamppp\htdocs\wp-content\themes\flatsome-child\salesadmin\salesadmin-order.php on line 58
+
+2022-06-30T02:54:16+00:00 CRITICAL syntax error, unexpected '?>', expecting ')' in C:\xamppp\htdocs\wp-content\themes\flatsome-child\salesadmin\salesadmin-order.php on line 58
+
+2022-06-30T02:54:18+00:00 CRITICAL syntax error, unexpected '?>', expecting ')' in C:\xamppp\htdocs\wp-content\themes\flatsome-child\salesadmin\salesadmin-order.php on line 58
+
+2022-06-30T07:48:30+00:00 CRITICAL Uncaught Error: Call to undefined function var_dum() in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php:1572
+Stack trace:
+#0 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(292): viewOrder('')
+#1 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xamppp\htdocs\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xamppp\htdocs\wp-admin\admin-ajax.php(187): do_action('wp_ajax_viewOrd...')
+#4 {main}
+  thrown in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php on line 1572
+
+2022-06-30T07:49:06+00:00 CRITICAL Uncaught Error: Call to undefined function var_dum() in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php:1572
+Stack trace:
+#0 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(292): viewOrder('')
+#1 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xamppp\htdocs\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xamppp\htdocs\wp-admin\admin-ajax.php(187): do_action('wp_ajax_viewOrd...')
+#4 {main}
+  thrown in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php on line 1572
+
+2022-06-30T07:49:38+00:00 CRITICAL Uncaught Error: Call to undefined function var_dum() in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php:1572
+Stack trace:
+#0 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(292): viewOrder('')
+#1 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xamppp\htdocs\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xamppp\htdocs\wp-admin\admin-ajax.php(187): do_action('wp_ajax_viewOrd...')
+#4 {main}
+  thrown in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php on line 1572
+
+2022-06-30T07:51:45+00:00 CRITICAL Uncaught Error: Call to undefined function var_dum() in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php:1573
+Stack trace:
+#0 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(292): viewOrder('')
+#1 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xamppp\htdocs\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xamppp\htdocs\wp-admin\admin-ajax.php(187): do_action('wp_ajax_viewOrd...')
+#4 {main}
+  thrown in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php on line 1573
+
+2022-06-30T07:53:22+00:00 CRITICAL Uncaught Error: Call to undefined function var_dum() in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php:1573
+Stack trace:
+#0 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(292): viewOrder('')
+#1 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xamppp\htdocs\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xamppp\htdocs\wp-admin\admin-ajax.php(187): do_action('wp_ajax_viewOrd...')
+#4 {main}
+  thrown in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php on line 1573
+
+2022-06-30T07:54:37+00:00 CRITICAL Uncaught Error: Call to undefined function var_dum() in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php:1572
+Stack trace:
+#0 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(292): viewOrder('')
+#1 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xamppp\htdocs\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xamppp\htdocs\wp-admin\admin-ajax.php(187): do_action('wp_ajax_viewOrd...')
+#4 {main}
+  thrown in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php on line 1572
+
+2022-06-30T07:55:25+00:00 CRITICAL Uncaught Error: Call to undefined function var_dum() in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php:1572
+Stack trace:
+#0 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(292): viewOrder('')
+#1 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xamppp\htdocs\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xamppp\htdocs\wp-admin\admin-ajax.php(187): do_action('wp_ajax_viewOrd...')
+#4 {main}
+  thrown in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php on line 1572
+
+2022-06-30T07:56:41+00:00 CRITICAL Uncaught Error: Call to undefined function var_dum() in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php:1572
+Stack trace:
+#0 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(292): viewOrder('')
+#1 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xamppp\htdocs\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xamppp\htdocs\wp-admin\admin-ajax.php(187): do_action('wp_ajax_viewOrd...')
+#4 {main}
+  thrown in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php on line 1572
+
+2022-06-30T07:57:29+00:00 CRITICAL Uncaught Error: Call to undefined function var_dum() in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php:1572
+Stack trace:
+#0 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(292): viewOrder('')
+#1 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xamppp\htdocs\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xamppp\htdocs\wp-admin\admin-ajax.php(187): do_action('wp_ajax_viewOrd...')
+#4 {main}
+  thrown in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php on line 1572
+
+2022-06-30T07:58:13+00:00 CRITICAL Uncaught Error: Call to undefined function var_dum() in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php:1572
+Stack trace:
+#0 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(292): viewOrder('')
+#1 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xamppp\htdocs\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xamppp\htdocs\wp-admin\admin-ajax.php(187): do_action('wp_ajax_viewOrd...')
+#4 {main}
+  thrown in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php on line 1572
+
+2022-06-30T07:59:32+00:00 CRITICAL Uncaught Error: Call to undefined function var_dum() in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php:1575
+Stack trace:
+#0 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(292): viewOrder('')
+#1 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xamppp\htdocs\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xamppp\htdocs\wp-admin\admin-ajax.php(187): do_action('wp_ajax_viewOrd...')
+#4 {main}
+  thrown in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php on line 1575
+
+2022-06-30T08:00:33+00:00 CRITICAL Uncaught Error: Call to undefined function var_dum() in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php:1575
+Stack trace:
+#0 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(292): viewOrder('')
+#1 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xamppp\htdocs\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xamppp\htdocs\wp-admin\admin-ajax.php(187): do_action('wp_ajax_viewOrd...')
+#4 {main}
+  thrown in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php on line 1575
+
+2022-06-30T08:02:31+00:00 CRITICAL Uncaught Error: Call to undefined function var_dum() in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php:1575
+Stack trace:
+#0 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(292): viewOrder('')
+#1 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xamppp\htdocs\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xamppp\htdocs\wp-admin\admin-ajax.php(187): do_action('wp_ajax_viewOrd...')
+#4 {main}
+  thrown in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php on line 1575
+

@@ -1,0 +1,45 @@
+2022-06-28T07:14:01+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on bool in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/woocommerce/order/order-details-item.php:33
+Stack trace:
+#0 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/woocommerce/order/order-details.php(145): wc_get_template('order/order-det...', Array)
+#2 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/glamoutle...')
+#3 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2607): wc_get_template('order/order-det...', Array)
+#4 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/class-wp-hook.php(292): woocommerce_order_details_table(15318)
+#5 /home/glamoutlet/domains/glam in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/woocommerce/order/order-details-item.php on line 33
+
+2022-06-28T07:14:08+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on bool in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/woocommerce/order/order-details-item.php:33
+Stack trace:
+#0 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/woocommerce/order/order-details.php(145): wc_get_template('order/order-det...', Array)
+#2 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/glamoutle...')
+#3 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2607): wc_get_template('order/order-det...', Array)
+#4 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/class-wp-hook.php(292): woocommerce_order_details_table(15318)
+#5 /home/glamoutlet/domains/glam in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/woocommerce/order/order-details-item.php on line 33
+
+2022-06-28T07:14:43+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on bool in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/woocommerce/order/order-details-item.php:33
+Stack trace:
+#0 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/woocommerce/order/order-details.php(145): wc_get_template('order/order-det...', Array)
+#2 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/glamoutle...')
+#3 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2607): wc_get_template('order/order-det...', Array)
+#4 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/class-wp-hook.php(292): woocommerce_order_details_table(15318)
+#5 /home/glamoutlet/domains/glam in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/woocommerce/order/order-details-item.php on line 33
+
+2022-06-28T09:10:18+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on bool in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/woocommerce/order/order-details-item.php:33
+Stack trace:
+#0 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/woocommerce/order/order-details.php(145): wc_get_template('order/order-det...', Array)
+#2 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/glamoutle...')
+#3 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2607): wc_get_template('order/order-det...', Array)
+#4 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/class-wp-hook.php(292): woocommerce_order_details_table(15318)
+#5 /home/glamoutlet/domains/glam in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/woocommerce/order/order-details-item.php on line 33
+
+2022-06-28T14:19:07+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on bool in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/woocommerce/order/order-details-item.php:33
+Stack trace:
+#0 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/woocommerce/order/order-details.php(145): wc_get_template('order/order-det...', Array)
+#2 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/glamoutle...')
+#3 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2607): wc_get_template('order/order-det...', Array)
+#4 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/class-wp-hook.php(292): woocommerce_order_details_table(15314)
+#5 /home/glamoutlet/domains/glam in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/woocommerce/order/order-details-item.php on line 33
+

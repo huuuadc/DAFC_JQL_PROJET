@@ -1,0 +1,23 @@
+2022-07-13T11:14:58+00:00 CRITICAL Uncaught Error: Call to a member function the_permalink() on null in C:\xamppp\htdocs\wp-content\themes\flatsome-child\woocommerce\single-product\title.php:34
+Stack trace:
+#0 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1553): wc_get_template('single-product/...')
+#2 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(292): woocommerce_template_single_title('')
+#3 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xamppp\htdocs\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xamppp\htdocs\wp-content\themes\flatsome-child\woocommerce\single-product\layouts\product-no-sidebar.php(39): do_action('woocommerce_sin...')
+#6 C:\xamppp\htdocs\wp-includes\template.php(732): require('C:\\xamppp\\htdoc...')
+#7 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xamppp\\htdoc...', false in C:\xamppp\htdocs\wp-content\themes\flatsome-child\woocommerce\single-product\title.php on line 34
+
+2022-07-13T11:17:47+00:00 CRITICAL Uncaught Error: Call to a member function the_letters() on null in C:\xamppp\htdocs\wp-content\themes\flatsome-child\woocommerce\single-product\title.php:34
+Stack trace:
+#0 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1553): wc_get_template('single-product/...')
+#2 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(292): woocommerce_template_single_title('')
+#3 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xamppp\htdocs\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xamppp\htdocs\wp-content\themes\flatsome-child\woocommerce\single-product\layouts\product-no-sidebar.php(39): do_action('woocommerce_sin...')
+#6 C:\xamppp\htdocs\wp-includes\template.php(732): require('C:\\xamppp\\htdoc...')
+#7 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xamppp\\htdoc...', false)
+ in C:\xamppp\htdocs\wp-content\themes\flatsome-child\woocommerce\single-product\title.php on line 34
+

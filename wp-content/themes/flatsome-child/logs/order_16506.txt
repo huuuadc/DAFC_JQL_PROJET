@@ -1,0 +1,5 @@
+16506 / processing / shipment
+//Payment_Outlet JSON
+{"LineNo":30000,"Transaction_No_":16506,"Receipt_No_":16506,"Tender_Type":14,"Amount_Tendered":"9930000","Amount_in_Currency":"9930000","Date":"2022-06-28 00:00:00.000","Time":"1754-01-01 23:41:40.000","Quantity":1,"VAT_Buyer_Name":"2406-lan5 15h37","VAT_Company_Name":"","VAT_Tax_Code":"","VAT_Address":"123 Acb, DEF","VAT_Payment_Method":"TM\/CK","VAT_Bank_Account":"","Member_Phone":"0909191919","THENH":"","Cash":"9930000"}
+//Transaction_Outlet JSON
+[{"Receipt_No_":16506,"Transaction_No_":16506,"LineNo":10000,"LineNo_Online":784,"Item_No_":"1141581","SerialNo":"","Variant_Code":"0040","Trans_Date":"2022-06-28 23:41:40.000","Quantity":-1,"UnitPrice":"9900000.00","TotalPrice":9900000,"Value_Type":0,"DiscountRate":"","DiscountAmount":"","Disc":"","TotalAmt":9900000,"Member_Card_No_":"08001637","Offer_Online_ID":"","CouponCode":"","CouponNo":"","Category_Online_ID":[5611,5603]}]

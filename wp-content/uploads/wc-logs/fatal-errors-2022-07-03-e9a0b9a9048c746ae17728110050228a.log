@@ -1,0 +1,12 @@
+2022-07-03T03:48:45+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xamppp\htdocs\wp-content\themes\flatsome\inc\functions\function-custom-css.php on line 3
+
+2022-07-03T03:48:53+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xamppp\htdocs\wp-content\themes\flatsome\inc\shortcodes\share_follow.php on line 3
+
+2022-07-03T03:49:11+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xamppp\htdocs\wp-content\plugins\advanced-custom-fields\includes\fields\class-acf-field-wysiwyg.php on line 3
+
+2022-07-03T03:49:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xamppp\htdocs\wp-content\plugins\wordpress-seo\src\integrations\front-end\category-term-description.php on line 11
+
+2022-07-03T03:49:29+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xamppp\htdocs\wp-content\plugins\wordpress-seo\src\integrations\primary-category.php on line 14
+
+2022-07-03T03:50:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xamppp\htdocs\wp-includes\Requests\Transport\cURL.php on line 163
+

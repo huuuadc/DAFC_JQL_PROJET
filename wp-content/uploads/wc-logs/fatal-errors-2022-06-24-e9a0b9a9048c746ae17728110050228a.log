@@ -1,0 +1,24 @@
+2022-06-24T07:34:39+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(114): WC_Data_Store->read(Object(WC_Order))
+#2 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/wp-activity-log-for-woocommerce/includes/wsal-functions.php(191): WC_Abstract_Order->__construct('9407')
+#3 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/class-wp-hook.php(292): wsal_woocommerce_extension_add_custom_meta_format('9407', '%StockOrderID%', Object(WSAL_AlertFormatter), 6592)
+#4 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/plugin.ph in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 104
+
+2022-06-24T07:34:41+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(114): WC_Data_Store->read(Object(WC_Order))
+#2 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/wp-activity-log-for-woocommerce/includes/wsal-functions.php(191): WC_Abstract_Order->__construct('9407')
+#3 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/class-wp-hook.php(292): wsal_woocommerce_extension_add_custom_meta_format('9407', '%StockOrderID%', Object(WSAL_AlertFormatter), 6592)
+#4 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/plugin.ph in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 104
+
+2022-06-24T07:53:44+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(114): WC_Data_Store->read(Object(WC_Order))
+#2 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/wp-activity-log-for-woocommerce/includes/wsal-functions.php(191): WC_Abstract_Order->__construct('9407')
+#3 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/class-wp-hook.php(292): wsal_woocommerce_extension_add_custom_meta_format('9407', '%StockOrderID%', Object(WSAL_AlertFormatter), 6592)
+#4 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/plugin.ph in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 104
+

@@ -1,0 +1,5 @@
+9700 / pending / processing
+//Payment_Outlet JSON
+{"LineNo":30000,"Transaction_No_":9700,"Receipt_No_":9700,"Tender_Type":14,"Amount_Tendered":"25600000","Amount_in_Currency":"25600000","Date":"2021-12-27 00:00:00.000","Time":"1754-01-01 18:11:42.000","Quantity":1,"VAT_Buyer_Name":"sdasd sdasds","VAT_Company_Name":"","VAT_Tax_Code":"","VAT_Address":"sdss","VAT_Payment_Method":"TM\/CK","VAT_Bank_Account":"","Member_Phone":"0978267699","THENH":"","Cash":"25600000"}
+//Transaction_Outlet JSON
+[{"Receipt_No_":9700,"Transaction_No_":9700,"LineNo":10000,"LineNo_Online":666,"Item_No_":"1102377","SerialNo":"RDA0000517211","Variant_Code":"0040","Trans_Date":"2021-12-27 18:11:42.000","Quantity":-1,"UnitPrice":"25600000.00","TotalPrice":25600000,"Value_Type":0,"DiscountRate":"","DiscountAmount":"","Disc":"","TotalAmt":25600000,"Member_Card_No_":false,"Offer_Online_ID":"","CouponCode":"","CouponNo":"","Category_Online_ID":[5603,5612]}]

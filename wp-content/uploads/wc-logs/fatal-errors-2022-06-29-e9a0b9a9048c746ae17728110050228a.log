@@ -1,0 +1,20 @@
+2022-06-29T17:38:58+00:00 CRITICAL Uncaught Error: Call to a member function get_total() on null in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php:1565
+Stack trace:
+#0 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(292): change_payment_gateway(Array)
+#1 C:\xamppp\htdocs\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-dashboard-setup.php(188): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-dashboard-setup.php(71): WC_Admin_Dashboard_Setup->populate_payment_tasks()
+#5 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-dashboard-setup.php(213): WC_Admin_Dashboard_Setup->__construct()
+#6 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\admin\class-wc-admin.php(97): include('C: in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php on line 1565
+
+2022-06-29T17:54:43+00:00 CRITICAL Uncaught Error: Call to a member function get_total() on null in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php:1565
+Stack trace:
+#0 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(292): change_payment_gateway(Array)
+#1 C:\xamppp\htdocs\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-dashboard-setup.php(188): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-dashboard-setup.php(71): WC_Admin_Dashboard_Setup->populate_payment_tasks()
+#5 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-dashboard-setup.php(213): WC_Admin_Dashboard_Setup->__construct()
+#6 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\admin\class-wc-admin.php(97): include('C: in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php on line 1565
+

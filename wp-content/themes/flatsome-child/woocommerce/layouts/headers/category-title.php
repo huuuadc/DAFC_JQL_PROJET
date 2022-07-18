@@ -138,7 +138,7 @@
                             echo esc_html( $crumb[0] );
                             echo '</span>';
                         }
-                            
+
                         // Category pages
                         if ( sizeof( $breadcrumb ) !== $key + 1 ) {
                             echo ' <span class="divider">/</span> ';

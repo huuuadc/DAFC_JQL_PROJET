@@ -5896,3 +5896,7 @@ body {
     border-radius: 4px 4px 20px 20px;
 }
 
+.product-info .brands {
+    margin-top: unset;
+}
+

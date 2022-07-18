@@ -45,8 +45,8 @@ if ( $tabs_style == 'accordian' || $tabs_style == 'accordian-collapsed' ) {
 $product_tabs = apply_filters( 'woocommerce_product_tabs', array() );
 
 $product_tabs = array( array('title'=> 'Thông tin sản phẩm', 'callback' => 'Description' ) ,
-    array('title'=> 'Thông tin sản phẩm 1', 'callback'=> 'Thông tin' ),
-    array('title'=> 'Thông tin sản phẩm 2', 'callback'=> 'Thông tin' )
+    array('title'=> 'Hướng dẫn bảo quản', 'callback'=> 'Thông tin' ),
+    array('title'=> 'Chính sách đổi trả', 'callback'=> 'Thông tin' )
         );
 
 $tab_count   = 0;

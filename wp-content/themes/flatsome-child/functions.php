@@ -1630,6 +1630,11 @@ add_action( "wp_ajax_nopriv_viewOrder", "viewOrder" );
 //        remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 );
 //    }
 //}
+add_action( 'wp_head', 'remove_product_breadcrumb' );
+function remove_product_breadcrumb()
+{
+    remove_action('woocommerce_single_product_summary', 'flatsome_woocommerce_product_breadcrumb', 0);
+}
 
 ?>
 

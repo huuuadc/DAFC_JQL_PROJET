@@ -21,29 +21,13 @@
 $a_z_listing_minpercol = 10;
 ?>
 <div id="az-tabs">
-<!--	<div class="title-with-button">-->
-<!--		<h1>--><?php //_e('Brands', 'glamoutlet'); ?><!--</h1>-->
-<!--		<div class="swiper-button-next"></div>-->
-<!--		<div class="swiper-button-prev"></div>-->
-<!--	</div>-->
-<!--	<div id="letters">-->
-<!--		-->
-<!--		<div class="az-letters swiper">-->
-<!--			--><?php //$a_z_query->the_letters(); ?>
-<!--		</div>-->
-<!--	</div>-->
     <strong>BRANDS LIST A-Z</strong>
 	<?php if ( $a_z_query->have_letters() ) : ?>
-	<div id="az-slider">
-		<div id="inner-sliderr" style="display: inline-flex; flex-direction: column;flex-wrap: wrap; max-height: 100px;">
+	<div id="az-slider" style="margin-top: 3em; " >
+		<div id="inner-sliderr" style="display: inline-flex; flex-direction: row;flex-wrap: wrap; height: 150%; line-height: 2em;">
 			<?php
-            foreach ($a_z_query as $key => $value ){
-                echo var_dump($key);
-            }
-//           echo var_dump( $a_z_query->have_items());
 			while ( $a_z_query->have_letters() ) :
 				$a_z_query->the_letter();
-
 				?>
 
                 <?php if ( $a_z_query->have_items() ) : ?>
@@ -56,11 +40,11 @@ $a_z_listing_minpercol = 10;
             <?php
                     while ( $a_z_query->have_items() ) :
                         $a_z_query->the_item();
-                        ?><div style="width: 100px;">
+                        ?><div class="az-inner-item">
                             <a href="<?php $a_z_query->the_permalink(); ?>">
                                 <?php $a_z_query->the_title(); ?>
                             </a>
-                            <div>
+                            </div>
                     <?php endwhile; ?>
 
 					<?php
@@ -70,50 +54,33 @@ $a_z_listing_minpercol = 10;
 		</div>
 	</div>
 </div>
-<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 <style>
-	@media(max-width: 1385px) {
-		.page-title .entry-title {
-			display: none;
-		}
-	}
+    .az-inner-item {
+        width: 16.66%;
+    }
+
+    @media (max-width: 900px) {
+        .az-inner-item {
+            width: 25%;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .az-inner-item {
+            width: 50%;
+        }
+    }
+
+	/*@media(max-width: 1385px) {*/
+	/*	.page-title .entry-title {*/
+	/*		display: none;*/
+	/*	}*/
+	/*}*/
 </style>
-<!-- Swiper JS -->
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<!-- Initialize Swiper -->
-<script>
-  var swiper = new Swiper(".az-letters", {
-	slidesPerView: 'auto',
-	slidesPerGroupAuto: true,
-	spaceBetween: 0,
-	freeMode: true,
-	navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-  });
-  jQuery(document).ready(function(){
-	var stickyTop = jQuery('#letters').offset().top;
-
-	jQuery(window).scroll(function() {
-		var windowTop = jQuery(window).scrollTop();
-		if (stickyTop < windowTop) {
-			jQuery('#letters').addClass('sticky');
-		} else {
-			jQuery('#letters').removeClass('sticky');
-		}
-	});
-  });
-</script>
 <?php else : ?>
 	<p>
-		<?php
-		esc_html_e(
-			'There are no posts included in this index.',
-			'a-z-listing'
-		);
-		?>
+		Hiện không có thương nhiệu nào được cài đặt.
 	</p>
 	<?php
 endif;

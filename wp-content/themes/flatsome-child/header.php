@@ -9,6 +9,21 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 	<?php wp_head(); ?>
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos <= currentScrollPos &&  currentScrollPos != 0) {
+                document.getElementById("header").style.top = "-150px";
+            } else {
+                document.getElementById("header").style.top = "0";
+            }
+
+
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
 </head>
 
 <body <?php body_class(); ?>>

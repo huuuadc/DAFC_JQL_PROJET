@@ -42,7 +42,7 @@ $classes[] = 'has-hover';
 if ( $out_of_stock ) $classes[] = 'out-of-stock';
 
 ?>
-
+<?php if (!$out_of_stock) { ?>
 <div <?php wc_product_class( $classes, $product ); ?>>
 	<div class="col-inner">
 	<?php do_action( 'woocommerce_before_shop_loop_item' ); ?>
@@ -70,7 +70,10 @@ if ( $out_of_stock ) $classes[] = 'out-of-stock';
 				<?php do_action( 'flatsome_product_box_actions' ); ?>
 			</div>
 			<?php if ( $out_of_stock ) { ?><div class="out-of-stock-label"><?php _e( 'Out of stock', 'woocommerce' ); ?></div><?php } ?>
-            <div class="icomoon-heart product-heath-wishlist"></div>
+            <div class="icomoon-heart product-heath-wishlist">
+                <?php echo do_shortcode( '[yith_wcwl_add_to_wishlist]' ); ?>
+            </div>
+
 		</div>
 
 		<div class="box-text <?php echo flatsome_product_box_text_class(); ?>">
@@ -94,3 +97,4 @@ if ( $out_of_stock ) $classes[] = 'out-of-stock';
 	<?php do_action( 'woocommerce_after_shop_loop_item' ); ?>
 	</div>
 </div>
+<?php }?>

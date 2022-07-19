@@ -41,11 +41,11 @@ global $product;
             <div class="group-action-wishlist">
                 <div class="wishlist-icon">
                     <button class="wishlist-button button icon" aria-label="<?php echo __( 'Wishlist', 'glamoutlet' ); ?>">
-                        <span class="icomoon-heart"> THÊM VÀO YÊU THÍCH</span>
+                        <span class="icomoon-heart"> <?php echo __( 'THÊM VÀO YÊU THÍCH', 'glamoutlet' ); ?></span>
                     </button>
-<!--                    <div class="wishlist-popup dark">-->
-<!--                        --><?php //echo do_shortcode( '[yith_wcwl_add_to_wishlist]' ); ?>
-<!--                    </div>-->
+                    <div class="wishlist-popup dark">
+                        <?php echo do_shortcode( '[yith_wcwl_add_to_wishlist]' ); ?>
+                    </div>
                 </div>
             </div>
         </div>

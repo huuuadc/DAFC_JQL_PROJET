@@ -5641,11 +5641,15 @@ html *::-webkit-scrollbar-thumb{
     display: flex;
     flex-direction: row-reverse;
 }
-/*.header {*/
-/*    position: fixed;*/
-/*    transition: top 0.5s;*/
-/*    display: block;*/
-/*}*/
+.header {
+    position: fixed;
+    transition: all 1s;
+    display: block;
+}
+
+.header:hover {
+    background-color: white;
+}
 
 .group-action-buyNowAnhWishlist {
     display: flex;
@@ -5704,9 +5708,9 @@ html *::-webkit-scrollbar-thumb{
 }
 
 /*Remove color*/
-.ux-swatches > .ux-swatch:first-child {
-    display: none;
-}
+/*.ux-swatches > .ux-swatch:first-child {*/
+/*    display: none;*/
+/*}*/
 
 
 /*404 page not found*/
@@ -5903,4 +5907,24 @@ body {
 .product-heath-wishlist {
     position: absolute; top: 10px; right: 10px
 }
+
+.box a {
+    display: block;
+}
+
+.header {
+    display: block;
+    position: relative;
+}
+
+.ttt-pnwc-container {
+    border-radius: 10px;
+}
+
+.ttt-pnwc-close {
+    margin: 10px;
+    border-radius: 99px;
+    background-color: #dbdbdb;
+}
+
 

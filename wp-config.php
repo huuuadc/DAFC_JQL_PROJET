@@ -48,7 +48,7 @@ define('WP_CACHE', true); // Added by WP Rocket
 
 /** The name of the database for WordPress */
 
-define( 'DB_NAME', 'glamoutlet_main_2906' );
+define( 'DB_NAME', '12345' );//glamoutlet_main_2906
 
 /** MySQL database username */
 

@@ -3551,11 +3551,11 @@ form.cart .group-action {
     /*Product Details - Group Action*/
     .group-action {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
     .group-action button {
-        margin-right: 10px;
-        width: calc(50% - 10px);
+        /*margin-right: 10px;*/
+        /*width: calc(50% - 10px);*/
     }
     .group-action button+button {
         margin-left: 10px;
@@ -3858,6 +3858,10 @@ form.cart .group-action {
     .group-action button {
         padding-left: 4px;
         padding-right: 4px;
+    }
+
+    .group-action-buyNowAnhWishlist {
+        flex-direction: column;
     }
 
     /*Header Main*/

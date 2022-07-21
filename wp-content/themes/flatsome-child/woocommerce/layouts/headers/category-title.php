@@ -1,4 +1,5 @@
 <?php if(is_tax( 'brand' )) : ?>
+<div class="header-height-150"></div>
 <div class="shop-page-title brand-page-title page-title <?php flatsome_header_title_classes() ?>">
     <div class="row">
         <?php  $image = get_field('brand_image', $wp_query->get_queried_object()); ?>
@@ -25,6 +26,7 @@
 
 
 <?php if(is_tax( 'gender' ) || is_tax( 'product_cat' )) : ?>
+    <div class="header-height-150"></div>
     <div class="shop-page-title category-page-title page-title <?php flatsome_header_title_classes() ?>">
 
         <div class="page-title-inner flex-row container medium-flex-wrap flex-has-center">
@@ -55,6 +57,7 @@
 
             $brand = get_term_by('slug', $paths[1], 'brand');
     ?>
+    <div class="header-height-150"></div>
     <div class="shop-page-title brand-page-title page-title">
         <div class="row">
             <?php  $image = get_field('brand_image', $brand);  ?>
@@ -78,6 +81,7 @@
         </div>
     </div>
     <?php else: ?>
+    <div class="header-height-150"></div>
     <div class="shop-page-title category-page-title page-title">
 
         <div class="page-title-inner flex-row container medium-flex-wrap flex-has-center">

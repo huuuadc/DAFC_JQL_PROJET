@@ -104,9 +104,9 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
                                             $in_wishlist = YITH_WCWL()->is_product_in_wishlist($product_id);
                                         }
                                         if ($in_wishlist) {
-                                            echo '<span class="icomoon-heart-fill"> '. __( 'Added to wishlist', 'glamoutlet' ) .'</span>';
+                                            echo '<span class="icomoon-heart-fill"></span> '.' <span> '. __( 'Added to wishlist', 'glamoutlet' ) .'</span>';
                                         } else {
-                                            echo '<span class="icomoon-heart"> '. __( 'Add to wishlist', 'glamoutlet' ) .'</span>';
+                                            echo '<span class="icomoon-heart"></span>'.' <span> '. __( 'Add to wishlist', 'glamoutlet' ) .'</span>';
                                         }
                                         ?>
                                     </button>

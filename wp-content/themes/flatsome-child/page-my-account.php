@@ -13,7 +13,7 @@ This templates add My account to the sidebar.
 get_header(); ?>
 
 
-
+<div class="header-height-150"></div>
 <?php do_action( 'flatsome_before_page' ); ?>
 
 

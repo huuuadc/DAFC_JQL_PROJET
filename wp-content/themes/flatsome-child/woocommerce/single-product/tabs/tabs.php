@@ -52,13 +52,23 @@ if ( ! empty( $product_tabs ) ) : ?>
     <div class="woocommerce-tabs wc-tabs-wrapper container tabbed-content">
         <ul class="tabs wc-tabs product-tabs small-nav-collapse <?php flatsome_product_tabs_classes(); ?>" role="tablist">
             <?php foreach ( $product_tabs as $key => $product_tab ) : ?>
-                <li class="<?php echo esc_attr( $key ); ?>_tab <?php if ( $tab_count == 0 ) echo 'active'; ?>" id="tab-title-<?php echo esc_attr( $key ); ?>" role="tab" aria-controls="tab-<?php echo esc_attr( $key ); ?>">
+                <li class="product-item <?php echo esc_attr( $key ); ?>_tab <?php if ( $tab_count == 0 ) echo 'active'; ?>" id="tab-title-<?php echo esc_attr( $key ); ?>" role="tab" aria-controls="tab-<?php echo esc_attr( $key ); ?>">
                     <a href="#tab-<?php echo esc_attr( $key ); ?>">
                         <?php echo wp_kses_post( apply_filters( 'woocommerce_product_' . $key . '_tab_title', $product_tab['title'], $key ) ); ?>
                     </a>
                 </li>
                 <?php $tab_count++; ?>
             <?php endforeach; ?>
+            <li class="product-item storafe_instructions_tab" id="tab-title-storafe_instructions" role="tab" aria-controls="tab-storafe_instructions">
+                <a href="#tab-storafe_instructions">
+                    <?php  echo __( 'Storafe Instructions', 'glamoutlet' ) ?>
+                </a>
+            </li>
+            <li class="product-item return_policy_tab ?>" id="tab-title-return_policy" role="tab" aria-controls="tab-return_policy">
+                <a href="#tab-return_policy">
+                    <?php echo  __( 'Return Policy', 'glamoutlet' ) ?>
+                </a>
+            </li>
         </ul>
         <div class="tab-panels">
             <?php foreach ( $product_tabs as $key => $product_tab ) : ?>
@@ -72,6 +82,18 @@ if ( ! empty( $product_tabs ) ) : ?>
                 </div>
                 <?php $panel_count++; ?>
             <?php endforeach; ?>
+
+            <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--storafe_instructions panel entry-content" id="tab-storafe_instructions" role="tabpanel" aria-labelledby="tab-title-storafe_instructions">
+                <p>
+                    Đây là hướng dẫn bảo quản
+                </p>
+            </div>
+
+            <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--return_policy panel entry-content " id="tab-return_policy" role="tabpanel" aria-labelledby="tab-title-return_policy">
+                <p>
+                    Đây là chính sách đổi trả
+                </p>
+            </div>
 
             <?php do_action( 'woocommerce_product_after_tabs' ); ?>
         </div>

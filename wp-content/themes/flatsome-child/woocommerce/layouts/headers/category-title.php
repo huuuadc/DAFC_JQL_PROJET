@@ -156,7 +156,6 @@
                 &nbsp;
             </div>
         </div>
-        
         <?php if(isset($product_category) && $product_category->description != '') : ?>
             <div class="container">
                 <div class="category-description"><p><?php echo $product_category->description; ?></p></div>

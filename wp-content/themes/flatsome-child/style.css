@@ -3765,15 +3765,6 @@ form.cart .group-action {
 
 
     /*Footer 1*/
-    .footer-1 .block_widget > .row:first-child .col:nth-child(1) {
-        max-width: 25%;
-    }
-    .footer-1 .block_widget > .row:first-child .col:nth-child(2) {
-        max-width: 50%;
-    }
-    .footer-1 .block_widget > .row:first-child .col:nth-child(3) {
-        max-width: 25%;
-    }
     .footer-1 .block_widget > .row:first-child .col:first-child h5 {
         max-width: 82px;
         margin: auto;
@@ -5648,12 +5639,14 @@ html *::-webkit-scrollbar-thumb{
 .header {
     position: fixed;
     transition: all 0.5s;
+    background-color: transparent;
     display: block;
 }
 
 .header:hover {
     background-color: white;
 }
+
 
 .group-action-buyNowAnhWishlist {
     display: flex;
@@ -5986,6 +5979,39 @@ td > label,.product-info .price {
 
 .single_add_to_cart_button {
     width: 100%;
+}
+
+.woocommerce-tabs > .product-tabs{
+    justify-content: space-evenly;
+    flex-flow: nowrap;
+}
+
+.woocommerce-tabs > .product-tabs > li+li:before {
+    all: unset;
+}
+
+.woocommerce-tabs > .product-tabs > .product-item {
+    flex: 1;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0) 95%, rgba(117, 106, 84, 0.33) 5%);
+}
+
+.woocommerce-tabs > .product-tabs > .active {
+    background-image: linear-gradient(rgba(0,0,0,0) 95%, #333 5%);
+}
+
+.nav-tabs>li>a {
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+}
+
+span.cart-icon.image-icon.icomoon-shopping-bag, span.cart-icon.image-icon {
+    color: unset;
+}
+
+.header-background__while {
+    background-color: white;
 }
 
 

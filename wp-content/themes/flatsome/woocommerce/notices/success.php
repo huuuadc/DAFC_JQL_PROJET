@@ -27,9 +27,10 @@ if ( ! $notices ) {
 
 <?php foreach ( $notices as $notice ) : ?>
 	<div class="woocommerce-message message-wrapper"<?php echo wc_get_notice_data_attr( $notice ); ?> role="alert">
-		<div class="message-container container success-color medium-text-center">
+		<div class="message-container container success-color medium-text-center" style="color: black; font-weight: bold">
 			<?php echo get_flatsome_icon( 'icon-checkmark' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 			<?php echo wc_kses_notice( $notice['notice'] ); ?>
+<!--            --><?php //echo __( 'Notices', 'glamoutlet' ) ?>
 		</div>
 	</div>
 <?php endforeach; ?>

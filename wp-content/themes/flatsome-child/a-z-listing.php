@@ -21,10 +21,13 @@
 $a_z_listing_minpercol = 10;
 ?>
 <div id="az-tabs">
-    <strong>BRANDS LIST A-Z</strong>
+    <div class="az-title">
+        <strong> <?php echo __( 'BRANDS LIST A-Z', 'glamoutlet' ); ?></strong>
+    </div>
+    <hr width="100%">
 	<?php if ( $a_z_query->have_letters() ) : ?>
-	<div id="az-slider" style="margin-top: 3em; " >
-		<div id="inner-sliderr" style="display: inline-flex; flex-direction: row;flex-wrap: wrap; height: 150%; line-height: 2em;">
+	<div id="az-slider" class="az-slider" >
+		<div id="inner-slider" class="inner-slider" >
 			<?php
 			while ( $a_z_query->have_letters() ) :
 				$a_z_query->the_letter();

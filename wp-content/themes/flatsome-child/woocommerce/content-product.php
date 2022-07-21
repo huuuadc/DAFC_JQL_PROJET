@@ -70,15 +70,31 @@ if ( $out_of_stock ) $classes[] = 'out-of-stock';
 				<?php do_action( 'flatsome_product_box_actions' ); ?>
 			</div>
 			<?php if ( $out_of_stock ) { ?><div class="out-of-stock-label"><?php _e( 'Out of stock', 'woocommerce' ); ?></div><?php } ?>
-            <div class="icomoon-heart product-heath-wishlist">
-                <?php echo do_shortcode( '[yith_wcwl_add_to_wishlist]' ); ?>
+            <div class="wishlist-icon product-heath-wishlist">
+                <button class="wishlist-button icon" aria-label="<?php echo __( 'Wishlist', 'glamoutlet' ); ?>">
+                    <?php
+                    $product_id = $product->get_id();
+                    $in_wishlist = false;
+                    if ( function_exists( 'YITH_WCWL' ) ) {
+                        $in_wishlist = YITH_WCWL()->is_product_in_wishlist($product_id);
+                    }
+                    if ($in_wishlist) {
+                        echo '<span class="icomoon-heart-fill"></span>';
+                    } else {
+                        echo '<span class="icomoon-heart"></span>';
+                    }
+                    ?>
+                </button>
+                <div class="wishlist-popup light">
+                    <?php echo do_shortcode( '[yith_wcwl_add_to_wishlist]' ); ?>
+                </div>
             </div>
 
 		</div>
 
 		<div class="box-text <?php echo flatsome_product_box_text_class(); ?>">
 			<?php
-				do_action( 'woocommerce_before_shop_loop_item_title' );
+//				do_action( 'woocommerce_before_shop_loop_item_title' );
 
 				echo '<div class="title-wrapper">';
 				do_action( 'woocommerce_shop_loop_item_title' );

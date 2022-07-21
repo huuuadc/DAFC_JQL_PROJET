@@ -14,13 +14,19 @@
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
             var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos <= currentScrollPos &&  currentScrollPos != 0) {
+            if (prevScrollpos <= currentScrollPos &&  currentScrollPos > 150) {
                 document.getElementById("header").style.top = "-150px";
             } else {
-                document.getElementById("header").style.top = "0";
+                document.getElementById("header").style.top = "-80px";
+                document.getElementById("header").style.backgroundColor = "white";
+                document.getElementById("wide-nav").style.padding = "10px";
+
             }
 
-
+            if (currentScrollPos < 30) {
+                document.getElementById("header").style.top = "0";
+                document.getElementById("header").style.backgroundColor = "unset";
+            }
             prevScrollpos = currentScrollPos;
         }
     </script>

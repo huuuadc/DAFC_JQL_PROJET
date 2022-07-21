@@ -44,11 +44,6 @@ if ( $tabs_style == 'accordian' || $tabs_style == 'accordian-collapsed' ) {
  */
 $product_tabs = apply_filters( 'woocommerce_product_tabs', array() );
 
-$product_tabs = array( array('title'=> 'Thông tin sản phẩm', 'callback' => 'Description' ) ,
-    array('title'=> 'Hướng dẫn bảo quản', 'callback'=> 'Thông tin' ),
-    array('title'=> 'Chính sách đổi trả', 'callback'=> 'Thông tin' )
-        );
-
 $tab_count   = 0;
 $panel_count = 0;
 
@@ -68,14 +63,12 @@ if ( ! empty( $product_tabs ) ) : ?>
         <div class="tab-panels">
             <?php foreach ( $product_tabs as $key => $product_tab ) : ?>
                 <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--<?php echo esc_attr( $key ); ?> panel entry-content <?php if ( $panel_count == 0 ) echo 'active'; ?>" id="tab-<?php echo esc_attr( $key ); ?>" role="tabpanel" aria-labelledby="tab-title-<?php echo esc_attr( $key ); ?>">
-<!--                    --><?php //if ( $key == 'Thông tin sản phẩm' && ux_builder_is_active() ) echo flatsome_dummy_text(); // phpcs:ignore WordPress.XSS.EscapeOutput.OutputNotEscaped ?>
-<!--                    --><?php
-//                    if ( isset( $product_tab['callback'] ) ) {
-//                        call_user_func( $product_tab['callback'], $key, $product_tab );
-//                    }
-//                    ?>
-                    <?php echo $product_tab['callback']?>
-
+                    <?php if ( $key == 'description' && ux_builder_is_active() ) echo flatsome_dummy_text(); // phpcs:ignore WordPress.XSS.EscapeOutput.OutputNotEscaped ?>
+                    <?php
+                    if ( isset( $product_tab['callback'] ) ) {
+                        call_user_func( $product_tab['callback'], $key, $product_tab );
+                    }
+                    ?>
                 </div>
                 <?php $panel_count++; ?>
             <?php endforeach; ?>
@@ -85,4 +78,3 @@ if ( ! empty( $product_tabs ) ) : ?>
     </div>
 
 <?php endif; ?>
-

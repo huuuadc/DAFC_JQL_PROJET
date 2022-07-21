@@ -20,8 +20,12 @@ add_action( 'flatsome_product_box_actions', 'flatsome_lightbox_button', 50 );
 /* Add stuff to lightbox */
 add_action( 'woocommerce_single_product_lightbox_summary', 'woocommerce_template_single_price', 10 );
 add_action( 'woocommerce_single_product_lightbox_summary', 'woocommerce_template_single_excerpt', 20 );
-add_action( 'woocommerce_single_product_lightbox_summary', 'woocommerce_template_single_add_to_cart', 30 );
+//add_action( 'woocommerce_single_product_lightbox_summary', 'woocommerce_template_single_add_to_cart', 30 );
+add_action( 'woocommerce_single_product_lightbox_summary', 'woocommerce_quick_variable_add_to_cart', 30 );
 add_action( 'woocommerce_before_single_product_lightbox_summary', 'woocommerce_show_product_sale_flash', 20 );
+
+
+
 
 if ( get_theme_mod( 'product_info_meta', 1 ) ) {
 	add_action( 'woocommerce_single_product_lightbox_summary', 'woocommerce_template_single_meta', 40 );

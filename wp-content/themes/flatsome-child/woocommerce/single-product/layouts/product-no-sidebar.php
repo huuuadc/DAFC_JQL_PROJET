@@ -6,6 +6,7 @@
 	$view_count = $view_count != '' ? (int)$view_count + 1 : 1;
 	update_post_meta($product_id, '_view_count', $view_count);
 ?>
+<div class="header-height-150"></div>
 <div class="product-container">
   <div class="product-main">
     <div class="row content-row mb-0">

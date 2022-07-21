@@ -28,20 +28,32 @@ global $product;
 	do_action( 'woocommerce_after_add_to_cart_quantity' );
 	?>
     <div style="width: 100%; text-decoration: underline; font-style: italic; text-align: right">
-        <span class="btn" >hướng dẫn chọn kích thước</span>
+        <a class="btn" ><?php echo __( 'Find Size', 'glamoutlet' ) ?></a>
     </div>
 	<div class="group-action">
-		<button type="submit" class="single_add_to_cart_button button alt"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
+        <?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
+
         <div class="group-action-buyNowAnhWishlist">
             <div class = "group-action-buynow">
-                <?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
+                <button type="submit" class="single_add_to_cart_button button alt"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
             </div>
             <div class="group-action-space">
             </div>
             <div class="group-action-wishlist">
                 <div class="wishlist-icon">
                     <button class="wishlist-button button icon" aria-label="<?php echo __( 'Wishlist', 'glamoutlet' ); ?>">
-                        <span class="icomoon-heart"> <?php echo __( 'THÊM VÀO YÊU THÍCH', 'glamoutlet' ); ?></span>
+                        <?php
+                        $product_id = $product->get_id();
+                        $in_wishlist = false;
+                        if ( function_exists( 'YITH_WCWL' ) ) {
+                            $in_wishlist = YITH_WCWL()->is_product_in_wishlist($product_id);
+                        }
+                        if ($in_wishlist) {
+                            echo '<span class="icomoon-heart-fill"> '. __( 'Added to wishlist', 'glamoutlet' ) .'</span>';
+                        } else {
+                            echo '<span class="icomoon-heart"> '. __( 'Add to wishlist', 'glamoutlet' ) .'</span>';
+                        }
+                        ?>
                     </button>
                     <div class="wishlist-popup dark">
                         <?php echo do_shortcode( '[yith_wcwl_add_to_wishlist]' ); ?>

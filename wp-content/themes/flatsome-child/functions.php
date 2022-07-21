@@ -1636,6 +1636,35 @@ function remove_product_breadcrumb()
     remove_action('woocommerce_single_product_summary', 'flatsome_woocommerce_product_breadcrumb', 0);
 }
 
+
+if ( ! function_exists( 'woocommerce_quick_variable_add_to_cart' ) ) {
+
+    /**
+     * Output the variable product add to cart area.
+     */
+    function woocommerce_quick_variable_add_to_cart() {
+        global $product;
+
+        // Enqueue variation scripts.
+        wp_enqueue_script( 'wc-add-to-cart-variation' );
+
+        // Get Available variations?
+        $get_variations = count( $product->get_children() ) <= apply_filters( 'woocommerce_ajax_variation_threshold', 30, $product );
+
+        // Load the template.
+        wc_get_template(
+            'single-product/add-to-cart/variation-quick-add-to-cart-button.php',
+            array(
+                'available_variations' => $get_variations ? $product->get_available_variations() : false,
+                'attributes'           => $product->get_variation_attributes(),
+                'selected_attributes'  => $product->get_default_attributes(),
+            )
+        );
+    }
+}
+
+
+
 ?>
 
 

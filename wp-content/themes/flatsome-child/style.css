@@ -5643,7 +5643,7 @@ html *::-webkit-scrollbar-thumb{
 }
 .header {
     position: fixed;
-    transition: all 1s;
+    transition: all 0.5s;
     display: block;
 }
 
@@ -5905,17 +5905,17 @@ body {
 }
 
 .product-heath-wishlist {
-    position: absolute; top: 10px; right: 10px
+    position: absolute; top: 10px; right: 0px
 }
 
 .box a {
     display: block;
 }
 
-.header {
-    display: block;
-    position: relative;
-}
+/*.header {*/
+/*    display: block;*/
+/*    position: relative;*/
+/*}*/
 
 .ttt-pnwc-container {
     border-radius: 10px;
@@ -5926,5 +5926,64 @@ body {
     border-radius: 99px;
     background-color: #dbdbdb;
 }
+
+wishlist-added .icomoon-heart:before {
+    content: "\e908";
+    color: #666;
+}
+
+.header-nav > li > a {
+    background-color: unset !important;
+    color: #aaaaaa;
+}
+
+.dgwt-wcas-sf-wrapp input[type="search"].dgwt-wcas-search-input {
+    background: unset;
+    border: 0px;
+    border-bottom: 1px solid #919191;
+}
+
+.header-height-150 {
+    height: 150px;
+}
+
+.header-buttom-transition {
+    background-color: white;
+    padding: 10px;
+}
+
+.header-bottom-nav > .menu-item:hover {
+    background-image: linear-gradient(rgba(0,0,0,0) 95%, #D7B797 5%);
+}
+
+.az-title {
+    margin-bottom: 50px;
+}
+
+.inner-slider {
+    display: inline-flex; flex-direction: row;flex-wrap: wrap; height: 150%; line-height: 2em;
+}
+
+.az-slider {
+    margin-top: 3em;
+}
+
+.product-info .product-title {
+    margin: 1px;
+}
+
+td > label,.product-info .price {
+    margin: 0.2em;
+}
+
+.product-info .woocommerce-Tabs-panel {
+    max-height: unset;
+}
+
+.single_add_to_cart_button {
+    width: 100%;
+}
+
+
 
 

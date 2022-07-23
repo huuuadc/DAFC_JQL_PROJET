@@ -15,16 +15,16 @@ $flatsome_footer_right_text = trim( get_theme_mod( 'footer_right_text' ) );
 <div class="absolute-footer <?php echo flatsome_option('footer_bottom_text'); ?> medium-text-center <?php echo $align;?>">
   <div class="container clearfix">
 
-    <?php if ( $flatsome_footer_right_text || $flatsome_absolute_footer_secondary ) : ?>
-      <div class="footer-secondary pull-right">
-        <?php if ( $flatsome_footer_right_text ) : ?>
-          <div class="footer-text inline-block small-block">
-            <?php echo do_shortcode($flatsome_footer_right_text); ?>
-          </div>
-        <?php endif; ?>
-        <?php echo $flatsome_absolute_footer_secondary; ?>
-      </div>
-    <?php endif; ?>
+<!--    --><?php //if ( $flatsome_footer_right_text || $flatsome_absolute_footer_secondary ) : ?>
+<!--      <div class="footer-secondary pull-right">-->
+<!--        --><?php //if ( $flatsome_footer_right_text ) : ?>
+<!--          <div class="footer-text inline-block small-block">-->
+<!--            --><?php //echo do_shortcode($flatsome_footer_right_text); ?>
+<!--          </div>-->
+<!--        --><?php //endif; ?>
+<!--        --><?php //echo $flatsome_absolute_footer_secondary; ?>
+<!--      </div>-->
+<!--    --><?php //endif; ?>
 
     <div class="footer-primary pull-left">
       <?php if ( has_nav_menu( 'footer' ) ) : ?>

@@ -42,7 +42,7 @@ $classes[] = 'has-hover';
 if ( $out_of_stock ) $classes[] = 'out-of-stock';
 
 ?>
-<?php if (!$out_of_stock) { ?>
+<?php if (true) { ?>
 <div <?php wc_product_class( $classes, $product ); ?>>
 	<div class="col-inner">
 	<?php do_action( 'woocommerce_before_shop_loop_item' ); ?>

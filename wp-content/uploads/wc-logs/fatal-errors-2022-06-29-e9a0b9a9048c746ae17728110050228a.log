@@ -1,20 +1,20 @@
-2022-06-29T17:38:58+00:00 CRITICAL Uncaught Error: Call to a member function get_total() on null in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php:1565
+2022-06-29T17:21:36+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order::get_shipping_phone() in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/yaymail/includes/MailBuilder/Shortcodes.php:912
 Stack trace:
-#0 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(292): change_payment_gateway(Array)
-#1 C:\xamppp\htdocs\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
-#2 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
-#3 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-dashboard-setup.php(188): WC_Payment_Gateways->get_available_payment_gateways()
-#4 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-dashboard-setup.php(71): WC_Admin_Dashboard_Setup->populate_payment_tasks()
-#5 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-dashboard-setup.php(213): WC_Admin_Dashboard_Setup->__construct()
-#6 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\admin\class-wc-admin.php(97): include('C: in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php on line 1565
+#0 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/yaymail/includes/MailBuilder/Shortcodes.php(582): YayMail\MailBuilder\Shortcodes->collectOrderData()
+#1 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/class-wp-hook.php(292): YayMail\MailBuilder\Shortcodes->templateParser('')
+#2 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#3 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_yaymail...')
+#5 {main}
+  thrown in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/yaymail/includes/MailBuilder/Shortcodes.php on line 912
 
-2022-06-29T17:54:43+00:00 CRITICAL Uncaught Error: Call to a member function get_total() on null in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php:1565
+2022-06-29T17:22:21+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order::get_shipping_phone() in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/yaymail/includes/MailBuilder/Shortcodes.php:912
 Stack trace:
-#0 C:\xamppp\htdocs\wp-includes\class-wp-hook.php(292): change_payment_gateway(Array)
-#1 C:\xamppp\htdocs\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
-#2 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
-#3 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-dashboard-setup.php(188): WC_Payment_Gateways->get_available_payment_gateways()
-#4 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-dashboard-setup.php(71): WC_Admin_Dashboard_Setup->populate_payment_tasks()
-#5 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-dashboard-setup.php(213): WC_Admin_Dashboard_Setup->__construct()
-#6 C:\xamppp\htdocs\wp-content\plugins\woocommerce\includes\admin\class-wc-admin.php(97): include('C: in C:\xamppp\htdocs\wp-content\themes\flatsome-child\functions.php on line 1565
+#0 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/yaymail/includes/MailBuilder/Shortcodes.php(582): YayMail\MailBuilder\Shortcodes->collectOrderData()
+#1 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/class-wp-hook.php(292): YayMail\MailBuilder\Shortcodes->templateParser('')
+#2 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#3 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_yaymail...')
+#5 {main}
+  thrown in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/yaymail/includes/MailBuilder/Shortcodes.php on line 912
 

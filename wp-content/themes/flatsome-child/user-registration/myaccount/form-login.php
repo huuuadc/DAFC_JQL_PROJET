@@ -60,7 +60,7 @@ $enable_field_icon = 'yes' === get_option( 'user_registration_extras_general_set
 <?php do_action( 'user_registration_before_customer_login_form' ); ?>
 
 <div class="ur-frontend-form login <?php echo $template_class; ?>" id="ur-frontend-form">
-	<h3 class="form-title"><?php _e('Welcome', 'glamoutlet'); ?></h3>
+	<h3 class="form-title"><?php _e('Chào Mừng', 'glamoutlet'); ?></h3>
 	<form class="user-registration-form user-registration-form-login login" method="post">
 		<div class="ur-form-row">
 			<div class="ur-form-grid">

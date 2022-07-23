@@ -1,0 +1,27 @@
+2022-07-22T10:07:04+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_available_variations() in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/functions.php:1658
+Stack trace:
+#0 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/class-wp-hook.php(292): woocommerce_quick_variable_add_to_cart('')
+#1 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/woocommerce/content-single-product-lightbox.php(58): do_action('woocommerce_sin...')
+#4 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/glamoutle...')
+#5 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome/inc/extensions/fl in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/functions.php on line 1658
+
+2022-07-22T10:07:13+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_available_variations() in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/functions.php:1658
+Stack trace:
+#0 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/class-wp-hook.php(292): woocommerce_quick_variable_add_to_cart('')
+#1 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/woocommerce/content-single-product-lightbox.php(58): do_action('woocommerce_sin...')
+#4 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/glamoutle...')
+#5 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome/inc/extensions/fl in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/functions.php on line 1658
+
+2022-07-22T10:07:18+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_available_variations() in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/functions.php:1658
+Stack trace:
+#0 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/class-wp-hook.php(292): woocommerce_quick_variable_add_to_cart('')
+#1 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/woocommerce/content-single-product-lightbox.php(58): do_action('woocommerce_sin...')
+#4 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/glamoutle...')
+#5 /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome/inc/extensions/fl in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/functions.php on line 1658
+

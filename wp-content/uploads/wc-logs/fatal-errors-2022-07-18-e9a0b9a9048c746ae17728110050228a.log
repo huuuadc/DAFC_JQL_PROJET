@@ -1,4 +1,4 @@
-2022-07-18T15:08:29+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wp-content\themes\flatsome-child\functions.php on line 1648
+2022-07-18T14:29:06+00:00 CRITICAL Cannot redeclare mysql2date() (previously declared in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/functions.php:30) in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/functions.php on line 51
 
-2022-07-18T15:08:30+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wp-content\themes\flatsome-child\functions.php on line 1648
+2022-07-18T14:29:08+00:00 CRITICAL Cannot redeclare mysql2date() (previously declared in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-includes/functions.php:30) in /home/glamoutlet/domains/glamoutlet.com.vn/public_html/wp-content/themes/flatsome-child/functions.php on line 51
 

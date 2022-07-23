@@ -56,7 +56,7 @@ do_action( 'user_registration_before_registration_form', $form_id );
 
 ?>
 	<div class='user-registration ur-frontend-form <?php echo $template_class . ' ' . $custom_class; ?>' id='user-registration-form-<?php echo absint( $form_id ); ?>'>
-		<h3 class="form-title"><?php _e('Register', 'glamoutlet'); ?></h3>
+		<h3 class="form-title"><?php _e('Đăng Ký', 'glamoutlet'); ?></h3>
 		<form method='post' class='register' data-form-id="<?php echo absint( $form_id ); ?>"
 			  data-enable-strength-password="<?php echo $enable_strong_password; ?>" data-minimum-password-strength="<?php echo $minimum_password_strength; ?>" <?php echo apply_filters( 'user_registration_form_params', '' ); ?> data-captcha-enabled="<?php echo esc_attr( $recaptcha_enabled ) ?>">
 			<?php
